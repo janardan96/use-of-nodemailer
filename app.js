@@ -12,7 +12,7 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 // public/static folder
-app.use('/enquiry', express.static(path.join(__dirname, 'public')));
+app.use('/enquiry', express.static(path.join(__dirname, 'enquiry')));
 /*
 app.use(express.static(__dirname + '/public'));
 */
