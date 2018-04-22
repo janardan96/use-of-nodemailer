@@ -67,7 +67,7 @@ app.post('/send', function (req, res) {
         port: 25,
         auth: {
             user: 'jdcodemon@gmail.com',
-            pass: 'jdsmartydam@96'
+            pass: '**********'
         },
         tls: {
             rejectUnauthorized: false
