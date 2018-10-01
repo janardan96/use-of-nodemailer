@@ -66,7 +66,7 @@ app.post('/send', function (req, res) {
         secure: false,
         port: 25,
         auth: {
-            user: 'jdcodemon@gmail.com',
+            user: 'abc@gmail.com',
             pass: '**********'
         },
         tls: {
@@ -76,8 +76,8 @@ app.post('/send', function (req, res) {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"NodeMailer Contact" <jdcodemon@gmail.com>', // sender address
-        to: 'jordancool1994@gmail.com',
+        from: '"NodeMailer Contact" <abc@gmail.com>', // sender address
+        to: 'xyz@gmail.com',
         /* for more use with , userExample@example.com' */
         subject: 'Harish works website', // Subject line
         text: 'Hello world?', // plain text body
